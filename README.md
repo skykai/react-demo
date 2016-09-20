@@ -1,4 +1,4 @@
-##react-redux 列表案例
+##react-redux 列表案例  
 
 ###参考项目
     [redux-async](https://github.com/reactjs/redux/tree/master/examples/async)
@@ -15,7 +15,7 @@
     npm start
 
     访问(http://localhost:3000/)
-    
+
 ###stroe数据格式
     {
         selectTag: ‘all’,
