@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    min-width: 230px;
+    max-width: 550px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.panel .header {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+
+.panel .header .topic-tab {
+    margin: 0 10px;
+    color: #B18E8E;
+    cursor: pointer;
+}
+
+.panel .header .topic-tab.current-tab {
+    background-color: #4D4D4D;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+
+.panel .topic-list {
+    margin: 0;
+}
+
+.panel .topic-list .cell:nth-child(1) {
+    border-top: none;
+}
+
+.panel .topic-list .cell {
+    background: #fff;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.panel .topic-list .cell:hover {
+    background: #F5F5F5;
+}
+
+.panel .topic-list a {
+    color: #778087;
+}
+
+.panel .topic-list .pull-left {
+    float: left;
+}
+
+.panel .topic-list a.topic_title {
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.panel .topic-list a.topic_title:hover {
+    text-decoration: underline;
+}
